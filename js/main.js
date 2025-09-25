@@ -1,5 +1,8 @@
 // Importar clases
-
+import {Jugador} from "./jugador.js"
+import { Maquina } from "./maquina.js";
+import { Humano } from "./humano.js";
+import { Extraterrestre } from "./extraterrestre.js";
 
 // The Fisher-Yates algorithm for shuffling an array
 const shuffleArray = array => {
